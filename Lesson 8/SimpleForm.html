@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+    h2{
+        color: #f2f2f2;
+        background-color: orangered;
+        text-align: center;
+    }
+    div {
+        border-radius: 5px;
+        background-color:#f2f2f2;
+        padding: 20px;
+        width: 50%;
+        margin: auto;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <form action="/action_page.php">
+        <h2>Sở thích của bạn</h2>
+        <label for="yourname" style="color: blue;">Họ và tên</label>
+        <input type="text" id="yourname" name="yourname" size="20"><br><br>
+        <label for="email" style="color: blue; margin-left: 30px;">Email </label>
+        <input type="text" id="email" name="email" size="20"><br><br>
+        <label for="hobby" style="color: blue; margin-left: 100px;">Sở Thích</label>
+        <input type="checkbox" name="hobby"><span>Thể Thao</span>
+        <input type="checkbox" name="hobby"><span>Âm Nhạc</span>
+        <input type="checkbox" name="hobby"><span>Đọc Sách</span><br>
+        <input type="checkbox" name="hobby" style="margin-left: 190px;"><span>Lướt Web</span>
+        <input type="checkbox" name="hobby"><span>Chơi Game</span>
+        <input type="checkbox" name="hobby"><span>Điện Ảnh</span><br>
+        <input type="checkbox" name="hobby"><span>Du Lịch</span><br><br>
+        <button type="submit">Gửi Thông Tin</button>
+        <button type="reset">Nhập Lại</button>
+      </form>
+    </div>
+</body>
+</html>

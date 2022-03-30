@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: #f2f2f2;
+        background-color:cornflowerblue;
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+        }
+        form{
+        background-color: yellow;
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="action_page.php">
+    <h2 style="color: blue;">Đăng Ký Học Viên</h2>
+    <label for="yourname" style="color:blue;">Họ và tên</label>
+    <div id="top">
+    <input type="text" id="yourname" name="yourname" size="20"><br><br>
+    </div>
+    <label for="dateofbirth" style="color: blue;">Ngày Sinh</label>
+    <input type="text" id="dateofbirth" name="dateofbirth" size="20"><br><br>
+    <label for="" style="color: blue; ;">Giới tính</label>
+    <input type="radio"name="rd"/> Nam 
+    <input type="radio"name="rd"/> Nữ
+    <p><label for="address">Địa chỉ</label></p>
+    <textarea name="address" id="address" cols="30" rows="10"></textarea><br>
+    <label for="class">Lớp</label>
+    <select name="class" id="class">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+        <option value="">Python</option>
+    </select><br><br>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email"><br><br>
+    <label for="phoneNumber">Điện Thoại</label>
+    <input type="text" id="phoneNumber" name="phoneNumber">
+</form>
+</body>
+</html>

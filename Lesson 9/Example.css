@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+#kho1{
+    background-color:seagreen;
+    color: aliceblue;
+    width: 300px;
+    height: 200px;
+    padding: 3px solid;
+    margin: 20px auto;
+    border: 2px;
+    border-radius: 25px;
+    display: flex;
+    align-items:center;
+} 
+#kho2{
+    background-color:seagreen;
+    color: aliceblue;
+    width: 300px;
+    height: 200px;
+    padding: 3px solid;
+    margin: 20px auto;
+    border: 2px;
+    border-radius: 25px;
+    display: flex;
+    align-items:center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+    color: red;
+}
+body{
+    background-image: url(https://wallpaperaccess.com/full/84248.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif;
+}
