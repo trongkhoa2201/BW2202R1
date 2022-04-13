@@ -1,0 +1,55 @@
+header{
+    height: 70px;
+    background-color: blanchedalmond;
+}
+aside{
+    width: 30%;
+    background-color: brown;
+    height: 700px;
+    overflow:scroll;
+}
+article{
+    width: 70%;
+    background-color:darkseagreen;
+    height: 700px;
+}
+article,aside,div{
+    float: left;
+}
+footer{
+    background-color: darkblue;
+    height: 30px ;
+    clear: both;
+}
+#logo{
+    height: 70px;
+    background-color: firebrick;
+    margin-bottom: 10px;
+}
+#logo img{
+    height: 100%;
+}
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    background-color: blanchedalmond;
+    text-align: center;
+    vertical-align: middle;
+}
+/* section {
+    background-color: khaki;
+    height: 100px;
+    margin-bottom: 10px;
+} */
+section img{
+    height: 100%;
+}
+#logo_1{
+    height: 110px;
+    background-color: none;
+    margin-bottom: 10px;
+}
+#logo_1 img{
+    height: 100%;
+}
