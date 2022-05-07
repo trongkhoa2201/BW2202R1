@@ -1,0 +1,52 @@
+
+div {
+	margin: auto;
+	width: 800px;
+	height: auto;
+	border: 3px solid gray;
+	text-align: center;
+	background: antiquewhite;
+}
+h1 {
+	color: blue;
+}
+table{
+	margin: 10px 95px;
+	font-size: 22px;
+	font-weight: 600;
+}
+sub{
+	font-size: 14px;
+	font-weight: 500;
+	color: black;
+}
+.day__text-vn td{
+	color: white !important;
+	font-weight: 600;
+	background-color: rgb(240, 221, 52);
+	padding: 5px 15px;
+}
+.day__text-vn td:first-child{
+	background-color: red;
+}
+.day__text-vn td:last-child{
+	background-color: blue;
+}
+.day__text-en td{
+	font-size: 22px;
+	font-weight: 600;
+	padding: 10px;
+}
+.day__number{
+	border-collapse: collapse;
+}
+.day__number td{
+	padding: 5px 25px;
+	background: #e7e7e6;
+}
+table td:first-child{
+	color: red;
+}
+table td:last-child{
+	color: blue;
+}
