@@ -6,12 +6,13 @@ aside{
     width: 30%;
     background-color: brown;
     height: 700px;
-    overflow:scroll;
+    overflow:   scroll;
 }
 article{
     width: 70%;
     background-color:darkseagreen;
     height: 700px;
+    text-align: justify;
 }
 article,aside,div{
     float: left;
@@ -37,11 +38,16 @@ nav{
     text-align: center;
     vertical-align: middle;
 }
-/* section {
-    background-color: khaki;
+nav a{
+	line-height: 2;
+	text-decoration: none;
+}
+section {
+    background-color: #f0ecec;
     height: 100px;
     margin-bottom: 10px;
-} */
+    border: 1px solid gainsboro;
+}
 section img{
     height: 100%;
 }
